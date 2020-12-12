@@ -1,3 +1,9 @@
+/*
+session的工作流程：
+当浏览器访问服务器并发送第一次请求时，服务器端会创建一个session对象，生成一个类似于key,value的键值对，
+然后将key(cookie)返回到浏览器（客户）端，浏览器下次再访问时，携带key(cookie)，找到对应的session(value)
+*/
+
 /*session的使用：
 https://www.npmjs.com/package/express-session
 1、cnpm install express-session --save
