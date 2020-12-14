@@ -4,7 +4,7 @@
 
 
 exports.getPostData=function(ctx){
-    //»ñÈ¡Êı¾İ  Òì²½
+    //è·å–æ•°æ®ï¼Œå¼‚æ­¥
     return new Promise(function(resolve,reject){
            try{
                let str='';
